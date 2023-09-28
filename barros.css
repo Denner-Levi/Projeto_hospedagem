@@ -1,0 +1,863 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: #191A1C;
+}
+.img_fundo{
+    background-image: url(vista-aerea-phu-chi-fa-e-nevoeiro-matinal-ao-nascer-do-sol-chiang-rai-tailandia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3); 
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.topo{
+    height: 15%;
+
+    display: flex;
+    align-items: end;
+}
+.links{
+    height: 40%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-size: 17px;
+}
+.nome{
+    height: 40%;
+    width: 30%;
+
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+}
+.container-top{
+    height: 100%;
+
+    padding: 0px 10%;
+}
+.top{
+    height: 60%;
+
+}
+.div-button{
+
+    width: 100%;
+    margin-top: 2%;
+
+}
+.div-button button{
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 7px;
+    
+}
+.div-button button:hover{
+    cursor: pointer;
+    background-color: rgba(214, 194, 194, 0.1) ;
+}
+.paragra{
+    width: 58%;
+    font-size: 17px;
+    text-justify: auto;
+    font-weight: normal;
+
+    margin-top: 1.5%;
+}
+.text{
+
+    font-size: 39px;
+    width: 90%;
+    margin-top: 9%;
+}
+
+.dados {
+    background-color: #191A1C;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gradient{
+    height: 15vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(25, 26, 28, 0), #191A1C);
+}
+.dados_card{
+
+    width: 25%;
+    display: flex;
+    height: 38%;
+    margin-top: 5%;
+    border-right: 1px solid grey;
+    box-sizing: border-box;
+}
+.aga1{
+    width: 50%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 26px;
+}
+.pe{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.pe p{
+    color: #8A939B;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.service{
+    height: 150vh;
+    width: 100%;
+    background-color: #191A1C;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.blue_title{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.blue_title p{
+    color: #4ab2f7;
+    font-weight: bold;
+    font-size: 23px;
+}
+.main_title{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+.main_title h1{
+    font-size: 45px;
+}
+.main_title p{
+    color: #8A939B;
+}
+.service_content{
+    height: 110vh;
+    width: 80%;
+    display: flex;
+}
+.cards{
+    width: 50%;
+    height: 90%;
+}
+.img{
+    width: 50%;
+    height: 90%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    height: 33%;
+    width: 100%;
+    display: flex;
+}
+.bola{
+    height: 80%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+.bolinha{
+    width: 80px;
+    height: 80px;
+    background-color: #1F2832;
+    border-radius: 50%; /* Torna o elemento circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    margin-left: 10%;
+}
+.texts{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+span {
+    content: '\2708';
+    font-size: 50px;
+    color: #51ACFE;
+    transform: rotate(-45deg);
+}
+.hamp{
+    transform: rotate(0deg);
+}
+.texts h1{
+color: white;
+}
+.texts p{
+    color: #8A939B;
+}
+
+.destino{
+    height: 210vh;
+}
+
+.grid-destins{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-content: space-around;
+    gap: 5%;
+    padding: 4% 23%;
+}
+
+.grid-card{
+    height: 75vh;
+    width: 43vh;
+    border-radius: 10px;
+}
+
+.grid-card:hover{
+    opacity: 0.9;
+}
+
+.baixo{
+    height: 5%;
+}
+
+
+
+.baixo{
+    background-color: #1F2832;
+    border-radius: 20px;
+    margin-top: 167%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1F2832;
+
+}
+
+
+.ilha{
+    background-image: url(ilhas.jpg);
+    background-size: cover;
+
+}
+.cafe{
+    background-image: url(cafedamanha.jpg);
+    background-size: cover;
+}
+.praia{
+    background-image: url(praia.jpg);
+    background-size: cover;
+}
+.cristal{
+    background-image: url(cristal.jpg);
+    background-size: cover;
+}
+
+
+.reviews{
+    height: 120vh;
+}
+.review-card{
+    height: 23vh;
+    width: 60vh;
+    background-color: #1F2832;
+    margin-top: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container-down{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-content: center;
+    gap: 10%;
+
+}
+.estrelas{
+    height: 27%;
+    display: flex;
+    align-items: center;
+
+}
+.coment{
+    height: 60%;
+    font-size: 15px;
+    padding-left: 2%;
+    padding-top: 1%;
+
+}
+.coment p{
+    width: 95%;
+}
+.perfil{
+    height: 20%;
+    padding-left: 2%;
+    font-weight: bold;
+}
+
+.fa-star{
+    transform: rotate(70deg);
+    font-size: 100%;
+    
+}
+.checked{
+    color: rgb(238, 142, 17);
+}
+.spancing-star{
+    padding-left: 2%;
+}
+
+
+@media (max-width: 425px){
+    .review-card{
+        height: 23vh;
+        width: 53vh;
+        background-color: #1F2832;
+        margin-top: 10%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 330px){
+    .review-card{
+        height: 23vh;
+        width: 47vh;
+        background-color: #1F2832;
+        margin-top: 10%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 368px) {
+    .review-card{
+        height: 23vh;
+        width: 47vh;
+        background-color: #1F2832;
+        margin-top: 10%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+    .grid-destins{
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: space-around;
+        gap: 1%;
+        padding: 4% 23%;
+        height: 100%;
+    }
+    .reviews{
+        height: 180vh;
+    }
+    .destino{
+        height: 355vh;
+        padding-top: 30%;
+
+    }
+    .container-down{
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: center;
+        gap: 10%;
+        width: 100%;
+        padding: 0 0;
+    
+    }
+    .coment{
+        height: 60%;
+        font-size: 15px;
+        padding-left: 2%;
+        padding-bottom: 1%;
+        padding-top: 0%;
+    
+    }
+    .service{
+        height: 220vh;
+
+    }
+    .service_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 1%;
+    }
+    .reviews{
+        padding-top: 80%;
+    }
+}
+@media (max-width: 769px){
+
+    .service_content{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 769px) and (max-height: 699px){
+    .main_title h1{
+        font-size: 40px;
+        text-justify: auto;
+    }
+    .main_title{
+        padding: 20px 20px;
+    }
+    .service{
+        height: 150vh;
+    }
+    .destino{
+        margin-top: 2%;
+    }
+    .card{
+        width: 100%;
+        display: flex;
+        
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+    }
+    .service_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 8%;
+    }
+    .texts{
+        font-size: 90%;
+        width: 63%;
+        text-align:inherit;
+
+    }
+    .texts p {
+        text-align: justify;
+    }
+    .img{
+        width: 100%;
+        height: 60%;
+        margin-bottom: 10%;
+        padding-top: 20%;
+        margin-top: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img img{
+        margin-top: 5%;
+        width: 60%;
+        height: 100%;
+    }
+    .bola{
+        height: 100%;
+        width: 27%;
+
+        margin-left: 2%;
+        margin-right : 2%;
+        display: flex;
+        align-items: unset;
+        justify-content: center;
+        
+        
+    }
+    .bolinha{
+
+        margin-left: 0%;
+    }
+    .hamp{
+
+    }
+    .trau{
+        margin-left: -2px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 769px) and (min-height: 700px){
+    .main_title h1{
+        font-size: 40px;
+        text-justify: auto;
+    }
+    .main_title{
+        padding: 20px 20px;
+    }
+    .service{
+        height: 150vh;
+    }
+    .card{
+        width: 100%;
+        display: flex;
+        
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+    }
+    .service_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2%;
+    }
+    .texts{
+        font-size: 90%;
+        width: 63%;
+        text-align:inherit;
+
+    }
+    .texts p {
+        text-align: justify;
+    }
+    .img{
+        width: 100%;
+        height: 60%;
+        
+        margin-top: 0%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .img img{
+        width: 60%;
+        height: 100%;
+    }
+    .bola{
+        height: 100%;
+        width: 27%;
+        margin-left: 2%;
+        margin-right : 2%;
+        display: flex;
+        align-items: unset;
+        justify-content: center;
+    }
+    .bolinha{
+
+        margin-left: 0%;
+    }
+    .hamp{
+
+    }
+    .trau{
+        margin-left: -2px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 500px){
+    .main_title h1{
+        font-size: 35px;
+        text-justify:auto;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 989px){
+    .dados{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+    }
+    .dados_card{
+        width: 50%; /* Dois itens por linha */
+        border-right: none; /* Remove a borda na última coluna */
+        border-bottom: 1px solid grey;
+    }
+}
+@media(max-width: 536px){
+    .dados{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .dados_card{
+        width: 80%; /* Dois itens por linha */
+        border-bottom: 1px solid grey;
+        height: 19%;
+    }
+}
+
+
+
+
+@media (max-width: 903px){
+    .text{
+        
+        font-size: 34px;
+        width: 100%;
+        margin-top: 9%;
+    }
+}
+@media (max-width: 710px){
+    .text{
+        
+        font-size: 32px;
+        width: 100%;
+        margin-top: 9%;
+    }
+    .links{
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    .top{
+        margin-top: 14%;
+    }
+    .text{
+
+        width: 100%;
+        margin-top: 10%;
+    }
+    .text h1{
+        font-size: 60px;
+    }
+    .paragra{
+        width: 100%;
+        font-size: 15px;
+        text-justify: auto;
+        font-weight: normal;
+    
+        margin-top: 5%;
+    }
+    .div-button button{
+        margin-top: 3%;
+    }
+
+}
+@media (max-width: 611px){
+    .paragra{
+        width: 80%;
+    }
+    .text{
+        font-size: 30px;
+        width: 100%;
+        margin-top: 9%;
+    }
+    .nome{
+        height: 40%;
+        width: 30%;
+        font-size: 25px;
+        font-weight: bold;
+        display: flex;
+        margin-left: 10%;
+        align-items: center;
+    }
+    .img_fundo{
+        background-image: url(vista-aerea-phu-chi-fa-e-nevoeiro-matinal-ao-nascer-do-sol-chiang-rai-tailandia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.3); 
+        background-blend-mode: multiply;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .topo{
+        height: 8%;
+    
+        display: flex;
+        align-items: end;
+    }
+}
+@media (max-width: 426px){
+    .nome{
+        width: 50%;
+    }
+
+}
+@media (max-width: 483px){
+    .img_fundo{
+        background-image: url(vista-aerea-phu-chi-fa-e-nevoeiro-matinal-ao-nascer-do-sol-chiang-rai-tailandia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.3); 
+        background-blend-mode: multiply;
+        height: 115vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 327px){
+
+    .text{
+
+        width: 100%;
+        margin-top: 10%;
+    }
+    .text h1{
+        font-size: 55px;
+    }
+    .div-button button{
+        margin-top: 6%;
+    }
+    .reviews{
+        padding-top: 90%;
+    }
+
+
+}
+@media (max-width: 376px){
+    .img{
+        height: 100%;
+    }
+    .img img{
+        margin-top: 20%;
+        height: 90%;
+    }
+    .service_content{
+        margin-top: 20%;
+    }
+    .destino{
+        margin-top: 20%;
+    }
+}
+@media (max-width: 356px) and (max-height: 699px){
+    .destino{
+        margin-top: 70%;
+    }
+
+}
+@media (max-width: 356px){
+    .img{
+        margin-top: 30%;
+    }
+    .review-card{
+        width: 40vh;
+    }
+}
+@media (max-width: 450px) and (min-height: 400px){
+    .review-card{
+        width: 84vw;
+    }
+
+}
+@media (max-width: 368px){
+    .img{
+        height: 100%;
+    }
+    .img img{
+        margin-top: 25%;
+        height: 90%;
+    }
+    .service_content{
+        margin-top: 30%;
+    }
+    .cards{
+        margin-top: 5%;
+    }
+    .destino{
+        margin-top: 50%;
+    }
+}
+@media (min-height: 810px){
+    .service{
+        height: 180vh;
+    }
+}
+
+
+
+
+
+/* Barra de Rolagem dos Navegadores */
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(110, 109, 109) rgb(196, 187, 187);
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(196, 187, 187);
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(110, 109, 109);
+    border-radius: 12px;
+}
+
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+body::-webkit-scrollbar {
+    height: 2px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(110, 109, 109);    
+    border-radius: 12px;       
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(3, 22, 105); 
+    border-radius: 12px;      
+  }
+
+
+
+
+
+
+
+
+
+
+  
