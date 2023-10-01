@@ -3,31 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proj</title>
+    <title>Traveler</title>
     <link rel="stylesheet" href="barros.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
- 
+    <script src="euodeiocelulares.js"></script>
 </head>
 <body>
+    <!--
+
+        A ideia desse projeto é fazer como se fosse um serviço do estilo Trivago,
+        que faz a hospedagem, escolha dos lugares e pontos turisticos
+
+
+
+    Caro professor, POR FAVOR teste a responsividade, pois custou o resto de minha 
+    saúde mental, tive inúmeros problemas com a responsividade, mas acho que está 
+    funcionando certinho agora. 
+
+    Ah, e preste atenção nos nomes de quem avaliou o serviço kkkkkkkkkk
+
+    -->
     
     
-    <div class="img_fundo">
+    <div id="home" class="img_fundo">
 
         <div class="topo">
 
             <div class="nome">
-                <p>Denner Levi</p>
+                <p>Traveler</p>
             </div>
 
+            <div>    <button onclick="toggleMobileMenu()" class="menu-button">Menu</button>       </div>
+
             <div class="links">
-                <p>Home</p>
-                <p>Service</p>
-                <p>Destination</p>
-                <p>Review</p>
-                <p>Contact</p>
+                <a href="#home">Home</a>
+                <a href="#service">Serviços</a>
+                <a href="#destin">Destinos</a>
+                <a href="#review">Reviews</a>
+                <a href="#contact">Contato</a>
+            </div>
+
+
+            <div class="mobile-menu" onclick="toggleMobileMenu()">
+                <div class="menu-content">
+                    <div class="flex-button">
+                    <button class="close-button" onclick="toggleMobileMenu(event)">Fechar</button>
+                    </div>
+                <div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service">Serviços</a></li>
+                        <li><a href="#destin">Destinos</a></li>
+                        <li><a href="#review">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
             </div>
 
         </div>
@@ -111,7 +145,7 @@
 
         </div>
 
-        <div class="service">
+        <div id="service" class="service">
 
             <div class="blue_title">
                 <p>Service</p>
@@ -154,7 +188,7 @@
                         </div>
 
                         <div class="texts">
-                            <h1>Seguro de Viajem</h1>
+                            <h1>Seguro de Viagem</h1>
                             <p>Viajem tranquilo com nosso seguro viagem completo.
                                 Proteja-se de imprevistos e viajem tranquilamente sem preocupações
                                 experiência. Faça um seguro hoje e desfrute de 
@@ -172,7 +206,7 @@
                         </div>
 
                         <div class="texts">
-                            <h1>Pacotes de Viajem</h1>
+                            <h1>Pacotes de Viagem</h1>
                             <p>Descubra novos horizontes e crie memórias inesquecíveis com o nosso
                                 pacotes turísticos exclusivos. Explore destinos únicos, saboreie locais
                                 sabores e criar histórias de viagens que durarão a vida toda.</p>
@@ -184,14 +218,12 @@
 
                 </div>
 
-                <div class="img">
-                    <img src="yousef-alfuhigi-bMIlyKZHKMY-unsplash.jpg">
-                </div>
+
             </div>
         </div>
 
 
-        <div class="destino">
+        <div id="destin" class="destino">
 
             <div class="blue_title">
                 <p>Destino</p>
@@ -224,7 +256,7 @@
 
         </div>
 
-        <div class="reviews">
+        <div id="review" class="reviews">
             <div class="blue_title">
                 <p>Reviews</p>
             </div>
@@ -286,7 +318,7 @@
                        <p>Minhas férias foram incríveis, graças à equipe de viagens! Eles cuidaram de cada detalhe, desde a reserva de hotéis até a seleção de locais deslumbrantes.</p>
                    </div>
                    <div class="perfil">
-                       <p>Anna Silva</p>
+                       <p>Eliana Tiba</p>
                    </div>
             </div>
 
@@ -303,7 +335,7 @@
                        <p>Minha última viagem foi incrível, e devo isso ao serviço de viagens! Eles trataram de tudo, desde hotéis até a escolha dos melhores lugares para visitar.</p>
                    </div>
                    <div class="perfil">
-                       <p>André Ferreira</p>
+                       <p>Paulo Rogério</p>
                    </div>
             </div>
 
@@ -314,7 +346,7 @@
 
 
 
-        <footer>
+        <footer id="contact">
             <p>Denner Levi</p>
             <p>denner.c.filho@gmail.com</p>
 
